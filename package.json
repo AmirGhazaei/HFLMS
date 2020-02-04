@@ -1,10 +1,10 @@
 {
-  "name": "moodlemobile",
+  "name": "hflms",
   "version": "3.8.1",
-  "description": "The official app for Moodle.",
+  "description": "The official HyperFamili app for LMS.",
   "author": {
-    "name": "Moodle Pty Ltd.",
-    "email": "mobile@moodle.com"
+    "name": "Sayyed Amir Ghazaei",
+    "email": "amirhosein389@gmail.com"
   },
   "config": {
     "ionic_webpack": "./config/webpack.config.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moodlehq/moodlemobile2.git"
+    "url": "https://github.com/AmirGhazaei/hflms.git"
   },
   "license": "Apache-2.0",
   "licenses": [
@@ -37,7 +37,7 @@
     "postionic:build": "npx gulp copy-component-templates",
     "desktop.pack": "npx electron-builder --dir",
     "desktop.dist": "npx electron-builder -p never",
-    "windows.store": "npx electron-windows-store --input-directory .\\desktop\\dist\\win-unpacked --output-directory .\\desktop\\store -a .\\resources\\desktop -m .\\desktop\\assets\\windows\\AppXManifest.xml --package-version 0.0.0.0 --package-name MoodleDesktop"
+    "windows.store": "npx electron-windows-store --input-directory .\\desktop\\dist\\win-unpacked --output-directory .\\desktop\\store -a .\\resources\\desktop -m .\\desktop\\assets\\windows\\AppXManifest.xml --package-version 0.0.0.0 --package-name HFLMS"
   },
   "dependencies": {
     "@angular/animations": "^5.2.10",
@@ -159,7 +159,7 @@
       "cordova-plugin-badge": {},
       "cordova-plugin-camera": {},
       "cordova-plugin-customurlscheme": {
-        "URL_SCHEME": "moodlemobile"
+        "URL_SCHEME": "hflms"
       },
       "cordova-plugin-device": {},
       "cordova-plugin-file": {},
@@ -189,8 +189,8 @@
   },
   "main": "desktop/electron.js",
   "build": {
-    "appId": "com.moodle.moodledesktop",
-    "productName": "Moodle Desktop",
+    "appId": "com.hyperfamili.hflmsdesktop",
+    "productName": "HFLMS Desktop",
     "files": [
       "desktop/electron.js",
       "www/**/*",
@@ -213,7 +213,7 @@
       {
         "name": "Moodle Mobile URL",
         "schemes": [
-          "moodlemobile"
+          "hflms"
         ],
         "role": "Viewer"
       }

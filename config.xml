@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.moodle.moodlemobile" version="3.8.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Moodle</name>
-    <description>Moodle official app</description>
-    <author email="mobile@moodle.com" href="http://moodle.com">Moodle Mobile team</author>
+<widget id="com.hyperfamili.hflms" version="3.8.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>HFLMS</name>
+    <description>HyperFamili official LMS app</description>
+    <author email="amirhosein389@gmail.com" href="http://kpag.ir">Sayyed Amir Ghazaei</author>
     <content src="index.html" />
     <access origin="*" />
     <access launch-external="yes" origin="tel:*" />
@@ -42,7 +42,7 @@
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
     <platform name="android">
-        <resource-file src="MainActivity.java" target="app/src/main/java/com/moodle/moodlemobile/MainActivity.java" />
+        <resource-file src="MainActivity.java" target="app/src/main/java/com/hyperfamili/hflms/MainActivity.java" />
         <resource-file src="google-services.json" target="app/google-services.json" />
         <splash density="land-ldpi" qualifier="land-ldpi" src="resources/android/splash/drawable-land-ldpi-screen.png" />
         <splash density="land-mdpi" qualifier="land-mdpi" src="resources/android/splash/drawable-land-mdpi-screen.png" />
@@ -152,7 +152,7 @@
     <plugin name="cordova-plugin-badge" spec="^0.8.8" />
     <plugin name="cordova-plugin-camera" spec="^4.1.0" />
     <plugin name="cordova-plugin-customurlscheme" spec="^4.4.0">
-        <variable name="URL_SCHEME" value="moodlemobile" />
+        <variable name="URL_SCHEME" value="hflms" />
     </plugin>
     <plugin name="cordova-plugin-device" spec="^2.0.3" />
     <plugin name="cordova-plugin-file" spec="^6.0.2" />
