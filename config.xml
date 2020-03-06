@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.hyperfamili.hflms" version="3.8.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HFLMS</name>
-    <description>HyperFamili official LMS app</description>
+<widget id="com.pourapakhsh.plms" version="3.8.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>PLMS</name>
+    <description>PouraPakhsh official LMS app</description>
     <author email="amirhosein389@gmail.com" href="http://kpag.ir">Sayyed Amir Ghazaei</author>
     <content src="index.html" />
     <access origin="*" />

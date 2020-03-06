@@ -1,7 +1,7 @@
 {
-    "app_id": "com.hyperfamili.hflms",
-    "appname": "HFLMS",
-    "desktopappname": "hyperFamili LMS Desktop",
+    "app_id": "com.pourapakhsh.plms",
+    "appname": "PLMS",
+    "desktopappname": "PouraPakhsh LMS Desktop",
     "versioncode": 3810,
     "versionname": "3.8.1-dev",
     "cache_update_frequency_usually": 420000,
@@ -34,8 +34,8 @@
         93.75
     ],
     "customurlscheme": "moodlemobile",
-    "siteurl": "lms.hyperfamili.com",
-    "sitename": "HFLMS",
+    "siteurl": "hrd.pourapakhsh.com",
+    "sitename": "PLMS",
     "multisitesdisplay": "",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": true,
